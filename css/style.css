@@ -414,3 +414,85 @@ h4 {
 /* Run easy section ends */
 
 
+/* Trainings and Exercises section stars here */
+
+.exercise-container {
+    margin-top: 90px;
+}
+
+.exercise-container>p {
+    width: 700px;
+    margin-top: 20px;
+
+}
+
+.imgsss {
+    display: grid;
+    width: 100%;
+    height: 200px;
+    grid-template-columns: .4fr 0.9fr .6fr;
+    
+}
+
+.rr1 {
+    background-image: url("../images/exercise1.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 255, 255, 0.349);
+    background-blend-mode: overlay;
+}
+
+.rr2 {
+    background-image: url("../images/exercise2.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(167, 49, 69, 0.479);
+    background-blend-mode: overlay;
+}
+
+.rr3 {
+    background-image: url("../images/exercise3.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(72, 77, 77, 0.589);
+    background-blend-mode: overlay;
+}
+
+.imgsss2 {
+    grid-template-columns: .7fr 0.5fr .6fr;
+}
+
+.rr4 {
+    background-image: url("../images/exercise4.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(61, 35, 35, 0.651);
+    background-blend-mode: overlay;
+}
+
+.rr5 {
+    background-image: url("../images/exercise5.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(49, 161, 58, 0.596);
+    background-blend-mode: overlay;
+}
+
+.rr6 {
+    background-image: url("../images/exercise6.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(50, 117, 180, 0.658);
+    background-blend-mode: overlay;
+}
+
+/* trainning ends */
+
+
+
