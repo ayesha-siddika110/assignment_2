@@ -613,4 +613,102 @@ select {
 /* BMI calculator ends here */
 
 
+/* MEET OUR TEam section starts here*/
+.meet-text {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.meet-text>p {
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    margin-top: 30px;
+}
+
+/* MEET OUR TEam section ends here*/
+
+.meet-image-contaner {
+    margin-top: 70px;
+    background-color: #222222;
+    width: 90%;
+    border-radius: 10px;
+    height: 580px;
+}
+
+.meet-image-row1,
+.meet-image-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 280px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    /* width: 95%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.24);
+    background-blend-mode: overlay;
+
+}
+
+.img1 {
+    margin-left: 20px;
+    background-image: url("../images/trainer1.png");
+
+}
+
+.img2 {
+    background-image: url("../images/trainer2.png");
+}
+
+.img3 {
+    /* margin-top: 100px; */
+    background-image: url("../images/trainer3.png");
+    margin-right: 20px;
+
+}
+
+.img4 {
+    margin-left: 20px;
+    background-image: url("../images/trainer4.png");
+
+}
+
+.img5 {
+    background-image: url("../images/trainer5.png");
+}
+
+.img6 {
+    background-image: url("../images/trainer6.png");
+    margin-right: 20px;
+    /* margin-bottom: 20px; */
+
+}
+.meet-img-text>h5{
+    padding-top: 180px;
+    margin-left: 30px;
+    font-size: 1.3rem;
+
+}
+.meet-img-text>p{
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #AFAFAF;
+    
+}
+
+/* meeet our team area ends */
+
+
+
 
