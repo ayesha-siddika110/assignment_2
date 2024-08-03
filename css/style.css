@@ -239,3 +239,178 @@ h3 {
 }
 
 /* small blur box end */
+
+
+/* change habit section */
+
+.Change-h2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+
+
+
+}
+
+.Change-p {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+/* change habit section end*/
+
+/* Change habit circle */
+
+.change-circle-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle-box {
+    margin-top: 50px;
+}
+
+.circle-box>img {
+    border-radius: 50%;
+    border: 5px solid #222222;
+
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.circle-box>p {
+    width: 195px;
+}
+
+.circle-box>p,
+h4 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* Change habit circle ends*/
+
+
+/* Extra section starts here */
+.ExtraContainer{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.extraboxess{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.extrabox{
+    /* border: 1px solid green; */
+    margin: 20px 10px;
+    padding: 50px 30px;
+    border-radius: 8px;
+    background-color: #222222;
+}
+.extrabox>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.extrabox-head-h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.extrabox-head-p{
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: start;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.read-more{
+    background-color: rgb(29, 29, 29);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.fa-brands, .fa-solid{
+    font-size: 50px;
+}
+.fa-angles-right{
+    font-size: 16px;
+    color: #E6533C;
+}
+
+.extrabox:hover .fa-brands{
+    color: #E6533C;
+}
+.extrabox:hover .fa-solid{
+    color: #E6533C;
+}
+    
+
+.extrabox:hover{
+    border-bottom: 3px solid #E6533C;
+}
+.extrabox:hover .read-more{
+    border: 1px solid #E6533C;
+}
+
+
+/* Extra section ends here */
+
+
+
+
+/* Run easy starts here */
+.run-easy {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 380px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+
+.run-easy-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.run-easy-content>button {
+    width: 50%;
+
+}
+
+.run-easy-content>h2 {
+    font-weight: 800;
+}
+
+.run-easy-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.run-easy-image>img {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    
+
+}
+
+/* Run easy section ends */
+
+
