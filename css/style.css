@@ -728,7 +728,7 @@ footer{
 }
 .foot-box{
     
-    border: 1px solid rgb(207, 205, 205);
+    /* border: 1px solid rgb(207, 205, 205); */
     /* background-color: #858383; */
     height: 400px;
     /* justify-content: center; */
@@ -890,7 +890,7 @@ hr{
     .BMI-container {
         margin-top: 50px;
         background-color: #222222;
-        height: 900px;
+        height: 930px;
     
     }
     
@@ -998,13 +998,8 @@ hr{
     margin-top: -50px;
 }
 .foot-box{
-    
-    /* border: 1px solid rgb(207, 205, 205); */
-    /* background-color: #858383; */
     height: auto;
     
-
-    /* align-items: center; */
 }
 footer{
     background-color: #222222;
@@ -1013,16 +1008,14 @@ footer{
 
 }
 
+.extraboxess{
+    grid-template-columns: 1fr;
 
 }
 
-/* body{
-    max-width: 1400px;
-    margin-right: -200px;
 
-    /* border: 1px solid white; */
-    /* height: 500px; */
-/* } */ 
+}
+
 
 
 
