@@ -20,7 +20,7 @@ body {
 
 header {
 
-    background-color: #222222;
+    background-image: linear-gradient(rgb(0, 0, 0), #222222);
     letter-spacing: 1.5px;
     word-spacing: 2px;
     /* border: 1px solid rgb(146, 9, 139); */
