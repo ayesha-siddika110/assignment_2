@@ -379,6 +379,9 @@ h4 {
 .extrabox:hover{
     border-bottom: 3px solid #E6533C;
 }
+.extrabox{
+    border-bottom: 3px solid #000000;
+}
 .extrabox:hover .read-more{
     border: 1px solid #E6533C;
 }
